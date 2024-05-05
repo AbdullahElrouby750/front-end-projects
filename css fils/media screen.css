@@ -1,0 +1,326 @@
+@media screen and (max-width:600.9px){
+    /* nav{
+        text-align: center;
+    } */
+    .sections{
+        position: absolute;
+        height: 500%;
+        width: 100%;
+        top: 60px;
+        left: 1px;
+        padding: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: all 0.5s ease-in-out;
+    }
+    .sections a{
+        padding-bottom: 10px;
+        display: block;
+    }
+    .logo{
+        left: 45%;
+    }
+    .mobile-view{
+        display: block;
+        top: 25px;
+        left: 75%;
+        i{
+            font-size: 28;
+        }
+    }
+
+    .nav-label i{
+        position: relative;
+        top: 50%;
+        right: -38%;
+    }
+
+    .nav-button:checked~.nav-label .sections{
+        transform: translateY(0%);
+        height: 400%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-label .sections{
+        display: block;
+    }
+
+    .intro p, .intro h2{
+        font-size: 28px;
+    }
+
+    .slider{
+        padding-top: 30px;
+        width: auto;
+        font-weight: bold;
+    }
+    
+    .contact-img{
+        width: 288px;
+        height: 352px;
+    }
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pref{
+        /* background-color: tomato; */
+        margin-top: 10%;
+        width: 100%;
+        li{
+            width: 100%;
+        }
+    }
+
+    .download-cv, .hire-me{
+        padding-left: 25%;
+        margin-bottom: 10px;
+    }
+    
+    .service{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-service{
+        width: 85%;
+    }
+     
+    .one-number{
+        width: 50%;
+    }
+
+    .frames{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-frame{
+        width: 400px;
+        height: 25%;
+        margin-bottom: 45px;
+    }
+    
+    form{
+        width: 80%;
+    }
+}
+
+
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    nav{
+        text-align: center;
+    }
+    .sections{
+        position: absolute;
+        height: 460%;
+        width: 100%;
+        top: 60px;
+        left: 1px;
+        padding: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: all 0.5s ease-in-out;
+
+    }
+    .sections a{
+        padding-bottom: 10px;
+        display: block;
+    }
+    .logo{
+        left: 40%;
+    }
+    .mobile-view{
+        display: block;
+        top: 25px;
+        left: 75%;
+        i{
+            font-size: 28;
+        }
+
+    }
+
+    .nav-label i{
+        position: relative;
+        top: 50%;
+        right: -38%;
+    }
+
+    .nav-button:checked~.nav-label .sections{
+        transform: translateY(0%);
+        height: 400%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-label .sections{
+        display: block;
+    }
+
+    .intro p, .intro h2{
+        font-size: 28px;
+    }
+
+    .slider{
+        padding-top: 30px;
+        width: auto;
+        font-weight: bold;
+    }
+
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pref{
+        margin-top: 10%;
+        width: 100%;
+        li{
+            width: 100%;
+        }
+    }
+
+    .service{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-service{
+        width: 65%;
+    }
+     
+    .one-number{
+        width: 50%;
+    }
+    
+    .one-pic{
+        width:260px ;
+        height:230px ;
+    }  
+
+    .frames{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-frame{
+        width: 400px;
+        height: 25%;
+        margin-bottom: 45px;
+    }
+  
+    form{
+        width: 80%;
+    }
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:992.9px) {
+    nav div{
+        width: 40%;
+    }  
+    .sections{
+        position: relative;
+        right: 90px;
+        width: 870;
+    }
+    .logo p{
+        right: 60px;
+    }
+    .sections a{
+        padding: 0 5 0 5;
+    }
+
+    .pref{
+        font-size: 18px;
+        width: 61%;
+    }
+
+    .contact-img{
+        width: 252px;
+        height: 308px;
+    }
+    /* .contact-img:hover .img-layer{
+        transform:translateY(-308px);
+    } */
+
+    .one-service{
+        width: 40%;
+    }
+    
+    .one-number{
+        width: 50%;
+    }
+
+    .one-frame{
+        width: 240px;
+        height: 10%;
+        font-size: 10px;
+    }
+    .content{
+        height: 20%;
+        margin-bottom: 10px;
+    }
+    .read-more{
+        font-size: 20px;
+    }
+
+    .second-frame{
+        margin-top: 20px;
+    }
+   
+    form{
+        width: 60%;
+    }
+}
+
+
+
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    nav div{
+        width: 50%;
+    }    
+    .sections{
+        position: relative;
+        right: 90px;
+        width: 800;
+    }
+    .logo p{
+        right: 90px;
+    }
+
+    .one-service h3{
+        font-size: 18;
+    }
+
+    .one-number{
+        width: 18%;
+    } 
+
+    .one-pic{
+        width:300px ;
+        height:230px ;
+    }  
+    
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+    nav div{
+        width: 50%;
+    }
+    .work-pic{
+        padding: 0px 65px 0px 65px;
+    }
+}
