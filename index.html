@@ -25,7 +25,7 @@
             <P class="amatic-sc-regular fs-1">CHECK <SPan class = "mealify-color">OUR GALLERY</SPan></P>
         </div>
 
-        <div class="gallery-imgs gap-xxl-4 gap-xl-3 gap-lg-0 gap-md-5 gap-sm-5">
+        <div class="gallery-imgs pt-3 pb-3">
             <div class="one-img position-relative border border-3 border-white rounded-1 pic1">
                 <img class="w-100 h-100" src="./assets/meal-1.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
@@ -84,63 +84,88 @@
             </div>
 
         </div>
-
     </div>
 
-    <div class="section contact" id="contact">
 
-        <div class="title">
-            <h6 claas = "tertiary-color">CONTACT</h6>
-            <P class="amatic-sc-regular">NEED HELP? <SPan class = "mealify-color">CONTACT US</SPan></P>
+
+    <div class="section contact mb-5 d-flex flex-column justify-content-center align-items-center" id="contact">
+
+        <div class="title  pt-4 text-center">
+            <h6 class = "tertiary-color">CONTACT</h6>
+            <P class="amatic-sc-regular fs-1">NEED HELP? <SPan class = "mealify-color">CONTACT US</SPan></P>
         </div>
 
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24194.82834800436!2d-74.006138!3d40.710233!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714954480621!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map w-75 mb-3">
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24194.82834800436!2d-74.006138!3d40.710233!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714954480621!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="contact-infos">
-            <div class="one-contact-info">
-                <div class="contact-icon"></div>
-                <h2 class="tertiary-color">Our Address</h2>
-                <p>A108 Adam Street, New York, NY 535022</p>
+        <div class="contact-infos w-75 row align-content-center m-5">
+
+            <div class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white">
+                <div class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center">
+                    <i class="fs-4 fa-solid fa-map"></i>
+                </div>
+                <div class="info">
+                    <h2 class="tertiary-color">Our Address</h2>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
             </div>
-            <div class="one-contact-info">
-                <div class="contact-icon"></div>
-                <h2 class="tertiary-color">Email Us</h2>
-                <a href="">contact@example.com</a>
+            <div class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white">
+                <div class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center">
+                    <i class="fs-4 fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h2 class="tertiary-color">Email Us</h2>
+                    <a href="">contact@example.com</a>
+                </div>
             </div>
-            <div class="one-contact-info">
-                <div class="contact-icon"></div>
-                <h2 class="tertiary-color">Call Us</h2>
-                <p>+1 5589 55488 55</p>
+            <div class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white">
+                <div class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center">
+                    <i class="fs-4 fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h2 class="tertiary-color">Call Us</h2>
+                    <p>+1 5589 55488 55</p>
+                </div>
             </div>
-            <div class="one-contact-info">
-                <div class="contact-icon"></div>
-                <h2 class="tertiary-color">Opening Hours</h2>
-                <p><span>Mon-Sat:</span> 11AM - 23PM;<span> Sunday :</span> Closed</p>
+            <div class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white">
+                <div class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center">
+                    <i class="fs-4 fa-solid fa-share-nodes"></i>
+                </div>
+                <div class="info">
+                    <h2 class="tertiary-color">Opening Hours</h2>
+                    <p><span>Mon-Sat:</span> 11AM - 23PM;<span> Sunday :</span> Closed</p>
+                </div>
             </div>
+
         </div>
 
-        <div class="send-message">
+        <div class="send-message p-3 gap-1 shadow w-75 text-center d-flex justify-content-center align-items-center">
             <form action="">
 
-                <div class="message-fields">
-                    <input type="text">
-                    <label for=""></label>
+                <div class="form-field w-100 mb-2 row pt-4">
+
+                    <div class="row col-12 m-0 p-0">
+
+                        <div class="message-fields col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <input class="border border-1 border-secondary rounded w-100" type="text" id="name" name="Name" required placeholder="Your Name">
+                            <label class=" w-100" for="name"></label>
+                        </div>
+                        <div class="message-fields col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12" >
+                            <input class="border border-1 border-secondary rounded w-100" type="email" id = "email" name = "Email" required placeholder = "Your Email" >
+                            <label class=" w-50" for="email"></label>
+                        </div>
+                    </div>
+                    <div class="message-fields col-12 ">
+                        <input class="border border-1 border-secondary rounded w-100" type="text" id = "subject" name = "Subject" required placeholder="Subject">
+                        <label class=" w-100" for="subject"></label>
+                    </div>
+                    <div class="message-fields col-12 ">
+                        <input class="border border-1 border-secondary rounded w-100" type="text" id="message" name="Message" required placeholder="Message">
+                        <label class=" w-100" for="message"></label>
+                    </div>
                 </div>
-                <div class="message-fields">
-                    <input type="text">
-                    <label for=""></label>
-                </div>
-                <div class="message-fields">
-                    <input type="text">
-                    <label for=""></label>
-                </div>
-                <div class="message-fields">
-                    <input type="text">
-                    <label for=""></label>
-                </div>
-                <button></button>
+                <button class = "w-25 rounded-pill text-light fw-bold">Send Message</button>
             </form>
         </div>
     </div>

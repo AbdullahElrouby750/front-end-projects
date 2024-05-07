@@ -1,0 +1,124 @@
+@media screen and (max-width:600.9px){
+    .gallery-imgs{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .one-img{
+        width :419.4px;
+    }
+
+    .send-message button{
+        height: 60px;
+        width: 50% !important;
+    }
+}
+
+
+
+    @media screen and (min-width:601px) and (max-width:768px) {
+        .gallery-imgs{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .one-img{
+            width :512px;
+        }
+
+           
+        .send-message button{ 
+            height: 60px;
+            width: 50% !important; 
+        }
+    }
+
+
+
+
+    @media screen and (min-width:769px) and (max-width:992.9px) {
+        
+        .gallery-imgs{
+    
+            display : grid;
+            grid-template-columns: repeat(2 , 367px) ;
+            grid-template-rows: repeat(11 , 100px) ;
+            gap: 10px 10px;
+        }
+
+        .pic1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        
+        .pic2{
+            grid-row-start: 1;
+            grid-row-end: 6;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        
+        .pic3{
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        
+        .pic4{
+            grid-row-start: 5;
+            grid-row-end: 9;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        
+        .pic5{
+            grid-row-start: 6;
+            grid-row-end: 8;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        
+        .pic6{
+            grid-row-start: 8;
+            grid-row-end: 11;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        
+        .pic7{
+            grid-row-start: 9;
+            grid-row-end: 12;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        
+        .send-message button{
+        font-size: 18px;
+        }
+
+    }
+
+
+
+
+    @media screen and (min-width:993px) and (max-width:1200px) {
+        .gallery-imgs{
+    
+            display : grid;
+            grid-template-columns: repeat(3 , 307.557px) ;
+            grid-template-rows: repeat(9 , 81px) ;
+            gap: 20px 20px;
+        }
+    }
+
+
+
+
+    @media screen and (min-width:1200px) {}

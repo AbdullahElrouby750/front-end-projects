@@ -29,9 +29,9 @@
 .gallery-imgs{
     
     display : grid;
-    grid-template-columns: repeat(3 , 379.7px) ;
-    grid-template-rows: repeat(9 , 100px) ;
-    /* gap: 100px 100px; */
+    grid-template-columns: repeat(3 , 341.73px) ;
+    grid-template-rows: repeat(9 , 90px) ;
+    gap: 20px 20px;
 }
 
 .pic1{
@@ -117,3 +117,28 @@
     transition: all 0.2s ease-in-out;
 }
 
+.map iframe{
+    height: 400px;
+}
+
+.one-contact-info{
+    background-color: gainsboro;
+}
+
+.contact-icon{
+    width: 50px;
+    height: 50px;
+    background: var(--mealify-color);
+}
+
+.send-message button{
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: var(--mealify-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.send-message button:hover{
+    background-color: red;
+}
