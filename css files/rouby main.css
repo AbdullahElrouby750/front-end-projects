@@ -6,6 +6,12 @@
     --mealify-color : #ce1212;
     --dark-mode-mealify-color : #c17e1f;
     --tertiary-color : #9f9f9f;
+   
+}
+
+*::selection{
+    background-color: var(--mealify-color);
+    color: white;
 }
 
 .amatic-sc-regular {
@@ -142,3 +148,22 @@
 .send-message button:hover{
     background-color: red;
 }
+
+.footer{
+    background-image : linear-gradient(#0009, #0009), url(../assets/textured-metal-background.jpg);
+    
+}
+
+.the-title img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
