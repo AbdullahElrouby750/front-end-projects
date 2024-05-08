@@ -9,6 +9,17 @@
    
 }
 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+
 *::selection{
     background-color: var(--mealify-color);
     color: white;
@@ -145,7 +156,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.send-message button:hover{
+.send-message button:hover , .subscribtion-form button:hover{
     background-color: red;
 }
 
@@ -159,11 +170,54 @@
     height: 2.5rem;
 }
 
-
-
-
-a{
-    text-decoration: none;
-    color: inherit;
+h3 span{
+    color: var(--mealify-color);
 }
 
+.link-title p::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    border: 0.2px solid gainsboro;
+    top: 35px;
+    left: 17px;
+}
+
+.subscribtion-form{
+    height: 50px;
+}
+
+.subscribtion-form button{
+    width: 20%;
+    background-color: var(--mealify-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.links-list li{
+    transition: all 0.3s ease-in-out;
+    width : 40%;
+    margin-right: 25px;
+}
+
+.links-list li::marker{
+    content: ">";
+    font-weight: bold;
+    font: 1.5rem;
+}
+
+.links-list li:hover{
+    transform: translateX(2%);
+    background-color: rgba(128, 128, 128, 0.27);
+}
+
+.links-again i
+{
+    color: var(--mealify-color);
+    font-size: 1.5rem;
+    position: relative;
+    top: 5px;
+}
+
+.links-again p{
+    top: 100%;
+}
