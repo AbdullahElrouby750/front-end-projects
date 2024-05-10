@@ -3,18 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- bootstrab -->
     <link rel="stylesheet" href="./css files/bootstrap.min.css">
+
+    
+    <!-- css files -->
     <link rel="stylesheet" href="./css files/all.min.css">
     <link rel="stylesheet" href="./css files/rouby main.css">
+    <link rel="stylesheet" href="./css files/alaa main.css">
+    <link rel="stylesheet" href="./css files/dark mood.css">
     <link rel="stylesheet" href="./css files/media screen.css">
+
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+
+    
+    <title>Mealify</title>
 </head>
 <body>
     
 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
+
+        
+        <input class="mode d-none" type="checkbox" id="darkmode" aria-checked="false">
+        <div class="Dark-mode-button position-fixed">
+            <label for="darkmode" class="switch">
+                <i class="fa-solid fa-moon moon fs-3 "></i>
+                <i class="fa-regular fa-sun sun d-none fs-3"></i>
+            </label>
+        </div>
+
+        <div class="container-fluid">
+          <a class="navbar-brand nav-title fs-2 fw-bold" href="#">Mealify<span>.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fs-3"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section1" class = "d-none sec section1">
+                <label for="section1">
+                    <a class="fs-3 px-3 tertiary-color sec1" aria-current="page" href="#home">Home</a>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section2" class = "d-none sec section2">
+                <label for="section2">
+                    <a class="fs-3 px-3 tertiary-color sec2" aria-current="page" href="#chefs">Chefs</a>
+                </label>
+              </li>
+              <li class="nav-item dropdown">
+                <input type="radio" name="sections" id="section3" class = "d-none sec section3">
+                <label for="section3">
+                    <a class="fs-3 px-3 tertiary-color sec3" aria-current="page" href="#gallery">Gallery</a>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section4" class = "d-none sec section4">
+                <label for="section4">
+                    <a class="fs-3 px-3 tertiary-color sec4" aria-current="page" href="#contact">Contact</a>
+                </label>
+              </li>
+            </ul>
+        </div>
+
+        
+      </nav>
 
 
 
@@ -22,11 +82,11 @@
 
         <div class="title pt-4 text-center">
             <h6 class = "tertiary-color">GALLERY</h6>
-            <P class="amatic-sc-regular fs-1">CHECK <SPan class = "mealify-color">OUR GALLERY</SPan></P>
+            <P class="amatic-sc-regular fs-1">CHECK <span class = "mealify-color">OUR GALLERY</Span></P>
         </div>
 
         <div class="gallery-imgs pt-3 pb-3">
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic1">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic1">
                 <img class="w-100 h-100" src="./assets/meal-1.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Pizza</h2>
@@ -34,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic2">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic2">
                 <img class="w-100 h-100" src="./assets/meal-2.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Beef steaks</h2>
@@ -42,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic3">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic3">
                 <img class="w-100 h-100" src="./assets/meal-3.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Burger</h2>
@@ -51,7 +111,7 @@
 
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic4">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic4">
                 <img class="w-100 h-100" src="./assets/meal-4.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Levitation pizza</h2>
@@ -59,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic5">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic5">
                 <img class="w-100 h-100" src="./assets/meal-5.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Crispy Fried Chicken</h2>
@@ -67,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic6">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic6">
                 <img class="w-100 h-100" src="./assets/meal-6.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Lyulya kebab</h2>
@@ -75,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="one-img position-relative border border-3 border-white rounded-1 pic7">
+            <div class="one-img position-relative border border-5 border-white rounded-1 pic7">
                 <img class="w-100 h-100" src="./assets/meal-7.jpg" alt="">
                 <div class="layer w-100 h-100 position-absolute">
                     <h2>Frittata</h2>
@@ -88,11 +148,11 @@
 
 
 
-    <div class="section contact mb-5 d-flex flex-column justify-content-center align-items-center" id="contact">
+    <div class="section contact pb-5 d-flex flex-column justify-content-center align-items-center" id="contact">
 
         <div class="title  pt-4 text-center">
             <h6 class = "tertiary-color">CONTACT</h6>
-            <P class="amatic-sc-regular fs-1">NEED HELP? <SPan class = "mealify-color">CONTACT US</SPan></P>
+            <P class="amatic-sc-regular fs-1">NEED HELP? <Span class = "mealify-color">CONTACT US</Span></P>
         </div>
 
         <div class="map w-75 mb-3">
@@ -143,7 +203,7 @@
         <div class="send-message p-3 gap-1 shadow w-75 text-center d-flex justify-content-center align-items-center">
             <form action="">
 
-                <div class="form-field w-100 mb-2 row pt-4">
+                <div class="form-field w-100 pb-2 row pt-4">
 
                     <div class="row col-12 m-0 p-0">
 
@@ -161,8 +221,7 @@
                         <label class=" w-100" for="subject"></label>
                     </div>
                     <div class="message-fields col-12 ">
-                        <input class="border border-1 border-secondary rounded w-100" type="text" id="message" name="Message" required placeholder="Message">
-                        <label class=" w-100" for="message"></label>
+                        <textarea placeholder="Message" name="message" class="w-100"></textarea>
                     </div>
                 </div>
                 <button class = "w-25 rounded-pill text-light fw-bold">Send Message</button>
@@ -172,7 +231,7 @@
 
 
 
-    <div class="footer text-light p-5 row w-100 ">
+    <div class="footer text-light p-5 row ">
 
         <div class="social col-3 d-flex flex-column justify-content-evenly align-items-start">
 

@@ -1,18 +1,60 @@
 :root{
     --primary-bg : white;
     --secondary-bg :#eeee;
-    --dark-mode-prime-bg : #37373f;
-    --dark-mode-secondary-bg : #7f7f90;
+    --dark-mode-prime-bg : #252525;
+    --dark-mode-secondary-bg : #202020;
+    --nav-dark-mode : #171717;
     --mealify-color : #ce1212;
     --dark-mode-mealify-color : #c17e1f;
     --tertiary-color : #9f9f9f;
-   
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+}
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+nav{
+    z-index: 1;
+    background-color: var(--primary-bg);
+}
+
+.nav-title span{
+    color: var(--mealify-color);
+}
+
+nav:has(.section1:checked) .sec1{
+    text-decoration: underline var(--mealify-color);
+    
+}
+
+nav:has(.section2:checked) .sec2{
+    text-decoration: underline var(--mealify-color);
+    
+}
+
+nav:has(.section3:checked) .sec3{
+    text-decoration: underline var(--mealify-color);
+    
+}
+
+nav:has(.section4:checked) .sec4{
+    text-decoration: underline var(--mealify-color);
+    
+}
+
+nav ul a{
+    transition: all 0.3s ease-in-out; 
+}
+
+
+.Dark-mode-button{
+    left: 90%;
 }
 
 a:hover{
@@ -134,6 +176,10 @@ a:hover{
     transition: all 0.2s ease-in-out;
 }
 
+.contact{
+    background-color: var(--primary-bg);
+}
+
 .map iframe{
     height: 400px;
 }
@@ -220,4 +266,12 @@ h3 span{
 
 .links-again p{
     top: 100%;
+}
+
+.message{
+    height: 200px;
+}
+
+.footer{
+    width: 100.8% !important;
 }
